@@ -61,6 +61,12 @@
 		margin: 0;
 	}
 
+	@media (max-width: 600px){ 
+		.app-bar h2 {
+			font-size: 1.5rem;
+		}
+	}
+
 	.content {
 		padding: 1rem;
 		margin-top: 90px;

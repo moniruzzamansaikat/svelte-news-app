@@ -1,13 +1,14 @@
 <script>
     export let news;
     import NewsCard from './NewsCard.svelte';
+    import Loading from './Loading.svelte';
 </script>
 
 <div class="news_list">
     {#each news as newsItem}
         <NewsCard {newsItem} />
     {:else}
-        <h2>Loading....</h2>
+        <Loading />
     {/each}
 </div>
 
