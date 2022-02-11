@@ -17,11 +17,24 @@
         width: 100%;
         margin-top: 1rem;
         padding: 0;
-        list-style: none;
         overflow: hidden;
-        display: grid;
-        grid-gap: 1em;
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-        grid-template-rows: masonry;
+        columns: 3;
+        column-gap: 1.3rem;
+        -webkit-columns: 3;
+        -webkit-column-gap: 1.3rem;
+    }
+
+    @media screen and (max-width: 768px) {
+        .news_list {
+            columns: 2;
+            -webkit-columns: 2;
+        }
+    }
+
+    @media screen and (max-width: 600px) {
+        .news_list {
+            columns: 1;
+            -webkit-columns: 1;
+        }
     }
 </style>

@@ -15,12 +15,13 @@
 
 <style>
     .news_item {
-        display: inline;
+        display: inline-block;
+        margin-top: 0;
         margin-bottom: 20px;
-        padding: 12px;
+        padding: 1rem;
         background-color: #fff;
         border-radius: 5px;
-        box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+        box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
     }
 
     h2 {
@@ -35,7 +36,6 @@
 
     .news_item img {
         width: 100%;
-        max-height: 300px;
     }
 
     .news_item p.author {
@@ -49,6 +49,10 @@
         margin-top: 12px;
         color: #00B4D8;
         text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
     }
     
 </style>

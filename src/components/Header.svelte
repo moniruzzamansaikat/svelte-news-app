@@ -18,7 +18,7 @@
         <nav>
             <label for="checkbox"><img class="hamburger" src="/img/bar.svg" alt=""></label>
             <input type="checkbox" id="checkbox">
-
+ 
             <ul> 
                 {#each categories as category}
                     <li 

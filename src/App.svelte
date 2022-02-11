@@ -70,6 +70,7 @@
 	.content {
 		padding: 1rem;
 		margin-top: 90px;
+		padding-bottom: 4rem;
 	}
 
 	@media (max-width: 992px){ 
