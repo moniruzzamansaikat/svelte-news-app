@@ -21,7 +21,7 @@
         padding: 1rem;
         background-color: #fff;
         border-radius: 5px;
-        box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     }
 
     h2 {
@@ -46,9 +46,12 @@
 
     a {
         display: inline-block;
-        margin-top: 12px;
+        margin-top: 1rem;
         color: #00B4D8;
         text-decoration: none;
+        padding: 5px 10px;
+        border: 1px solid #00B4D8;
+        border-radius: 3px;
     }
 
     a:hover {

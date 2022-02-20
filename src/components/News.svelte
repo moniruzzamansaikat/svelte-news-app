@@ -19,9 +19,9 @@
         padding: 0;
         overflow: hidden;
         columns: 3;
-        column-gap: 1.3rem;
+        column-gap: 2rem;
         -webkit-columns: 3;
-        -webkit-column-gap: 1.3rem;
+        -webkit-column-gap: 2rem;
     }
 
     @media screen and (max-width: 768px) {

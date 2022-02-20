@@ -1,6 +1,7 @@
 <script>
 	import News from './components/News.svelte';
 	import Header from './components/Header.svelte';
+	import Footer from './components/Footer.svelte';
 
     let categories = ['all','technology','business','sports','world','politics','startup','entertainment','miscellaneous','hatke','science','automobile']
 	let news = [];
@@ -24,7 +25,7 @@
 	<div class="app-bar">
 		<div class="logo">
 	        <img src="/img/logo.png" alt="">
-			<h2 class="app-title">News Website</h2>
+			<h2 class="app-title">Newz Website</h2>
 		</div>
 	</div>
 	<Header {categories} {activeCategory} on:setActiveCategory="{setActiveCategory}" />
@@ -32,6 +33,10 @@
 	<div class="content">
 		<News {news} />
 	</div>
+
+	{#if news.length > 0}
+		<Footer />
+	{/if}
 </main> 
  
 <style>
